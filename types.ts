@@ -7,7 +7,7 @@ export interface Banner {
 export interface Category {
   id: string;
   name: string;
-  banner: string
+  banner: Banner
 }
 
 export interface Product {
